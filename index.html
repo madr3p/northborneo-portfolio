@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NorthBorneo is a UPSI student game development portfolio showcasing games, multimedia work, and creative projects.">
+  <title>NorthBorneo | Student Game Development Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="#home" class="logo" aria-label="NorthBorneo home">NB</a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="heroTitle">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">UPSI Student Game Development Group</p>
+        <h1 id="heroTitle">NorthBorneo</h1>
+        <p class="hero-subtitle">Crafting Interactive Experiences Through Games &amp; Multimedia Projects</p>
+        <p class="hero-description">NorthBorneo is a student-led game development team showcasing interactive projects, multimedia experiences, and creative design work.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore Projects</a>
+          <a href="#about" class="btn btn-secondary">Meet The Team</a>
+        </div>
+      </div>
+      <div class="hero-stats reveal" aria-label="NorthBorneo highlights">
+        <article>
+          <strong>02</strong>
+          <span>Featured Games</span>
+        </article>
+        <article>
+          <strong>05</strong>
+          <span>Team Members</span>
+        </article>
+        <article>
+          <strong>2025-2027</strong>
+          <span>Portfolio</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="aboutTitle">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About The Studio</p>
+          <h2 id="aboutTitle">Who We Are</h2>
+          <p>NorthBorneo is a student game development team formed at UPSI. Our members collaborate across design, development, multimedia, and project management disciplines to create engaging interactive experiences.</p>
+        </div>
+
+        <div class="team-grid">
+          <article class="member-card reveal">
+            <img src="assets/images/member-1.jpg" alt="Portrait for team member one">
+            <div>
+              <h3>Muhammad Zarif</h3>
+              <p>E20251035486</p>
+              <span>Game Developer</span>
+            </div>
+          </article>
+          <article class="member-card reveal">
+            <img src="assets/images/member-2.jpg" alt="Portrait for team member two">
+            <div>
+              <h3>Daniel Hakimi Zainuddin</h3>
+              <p>E20251035458</p>
+              <span>Game Developer</span>
+            </div>
+          </article>
+          <article class="member-card reveal">
+            <img src="assets/images/member-3.jpg" alt="Portrait for team member three">
+            <div>
+              <h3>Muhammad Aidil Faizi</h3>
+              <p>E20251035581</p>
+              <span>Game Artist</span>
+            </div>
+          </article>
+          <article class="member-card reveal">
+            <img src="assets/images/member-4.jpg" alt="Portrait for team member four">
+            <div>
+              <h3>Muhammad Hadif Faqhry</h3>
+              <p>E20251035475</p>
+              <span>Game Sound Designer</span>
+            </div>
+          </article>
+          <article class="member-card reveal">
+            <img src="assets/images/member-5.jpg" alt="Portrait for team member five">
+            <div>
+              <h3>Ralph Mbus</h3>
+              <p>E20251035460</p>
+              <span>Game Artist</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects" aria-labelledby="projectsTitle">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projectsTitle">Featured Projects</h2>
+        </div>
+
+        <article class="project-showcase reveal">
+          <div class="project-banner">
+            <img src="assets/images/cashier-mania-banner.png" alt="Cashier Mania banner">
+          </div>
+          <div class="project-content">
+            <p class="project-genre">Simulation Game</p>
+            <h3>Cashier Mania</h3>
+            <p>A fast-paced cashier simulation game where players manage customer transactions, maintain efficiency, and improve store operations under pressure.</p>
+            <div class="tools" aria-label="Tools used for Cashier Mania">
+              <span>Unity</span>
+              <span>Visual Studio</span>
+              <span>Photoshop</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://madrep.itch.io/cashier-mania" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Play on Itch.io</a>
+              <a href="https://youtu.be/m-cxfxvRDzI?si=tfwGHlu7nTmzPnrk" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Trailer</a>
+              <a href="https://github.com/madr3p/Cashier-Mania" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-showcase project-showcase-alt reveal">
+          <div class="project-banner">
+            <img src="assets/images/knock-knock-banner.png" alt="Knock Knock banner">
+          </div>
+          <div class="project-content">
+            <p class="project-genre">Memory Game</p>
+            <h3>Knock Knock</h3>
+            <p>Knock knock! is a 2D memory game where you race against time to remember and match the masked faces behind every door.</p>
+            <div class="tools" aria-label="Tools used for Knock Knock">
+              <span>Unity</span>
+              <span>Visual Studio</span>
+              <span>Aseprite</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://madrep.itch.io/knock-knock" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Play on Itch.io</a>
+              <a href="https://github.com/madr3p/KnockKnock" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery" aria-labelledby="galleryTitle">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Visual Archive</p>
+          <h2 id="galleryTitle">Gallery</h2>
+        </div>
+
+        <div class="gallery-grid reveal" aria-label="NorthBorneo project gallery">
+          <button class="gallery-item tall" type="button" data-full="assets/images/gallery-1.png" aria-label="Open gallery image one">
+            <img src="assets/images/gallery-1.png" alt="Game production gallery one">
+          </button>
+          <button class="gallery-item" type="button" data-full="assets/images/gallery-2.png" aria-label="Open gallery image two">
+            <img src="assets/images/gallery-2.png" alt="Game production gallery two">
+          </button>
+          <button class="gallery-item wide" type="button" data-full="assets/images/gallery-3.png" aria-label="Open gallery image three">
+            <img src="assets/images/gallery-3.png" alt="Game production gallery three">
+          </button>
+          <button class="gallery-item" type="button" data-full="assets/images/gallery-4.png" aria-label="Open gallery image four">
+            <img src="assets/images/gallery-4.png" alt="Game production gallery four">
+          </button>
+          <button class="gallery-item tall" type="button" data-full="assets/images/gallery-5.png" aria-label="Open gallery image five">
+            <img src="assets/images/gallery-5.png" alt="Game production gallery five">
+          </button>
+          <button class="gallery-item" type="button" data-full="assets/images/gallery-6.png" aria-label="Open gallery image six">
+            <img src="assets/images/gallery-6.png" alt="Game production gallery six">
+          </button>
+          <button class="gallery-item wide" type="button" data-full="assets/images/gallery-7.png" aria-label="Open gallery image seven">
+            <img src="assets/images/gallery-7.png" alt="Game production gallery seven">
+          </button>
+          <button class="gallery-item" type="button" data-full="assets/images/gallery-8.png" aria-label="Open gallery image eight">
+            <img src="assets/images/gallery-8.png" alt="Game production gallery eight">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contactTitle">
+      <div class="section-shell contact-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Start A Conversation</p>
+          <h2 id="contactTitle">Contact Us</h2>
+          <p>Share a message with NorthBorneo for project inquiries, assignment discussions, or collaboration opportunities.</p>
+        </div>
+
+        <div class="contact-layout">
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name"="Your name">
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email"="you@example.com">
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6"="Tell us about your idea"></textarea>
+              <small class="error-message"></small>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Gallery image preview">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close gallery preview">&times;</button>
+    <img alt="" id="lightboxImage">
+  </div>
+
+  <footer class="site-footer">
+    <p class="footer-brand">NorthBorneo</p>
+    <p>Student Game Development Portfolio</p>
+    <p>&copy; 2026 NorthBorneo</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
